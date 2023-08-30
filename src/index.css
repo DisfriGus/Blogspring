@@ -1,0 +1,41 @@
+@import url('assets/Font/Switzer_Complete/Switzer_Complete/Fonts/WEB/css/switzer.css');
+@import url('assets/Font/GeneralSans_Complete/GeneralSans_Complete/Fonts/WEB/css/general-sans.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  h1{
+    @apply font-switzer text-[#181C18] font-bold text-[72px] tracking-[-1.5%] leading-[86px] 
+  }
+  h2{
+    @apply font-switzer text-[#181C18] font-bold text-[64px] tracking-[-1.5%] leading-[76px]
+  }
+  h3{
+    @apply font-switzer text-[#181C18] font-bold text-[56px] tracking-[-1.5%] leading-[64px]
+  }
+  h4{
+    @apply font-switzer text-[#181C18] font-semibold text-[42px] tracking-[-1.5%] leading-[52px]
+  }
+  h5{
+    @apply font-switzer text-[#181C18] font-semibold text-[32px] tracking-[-1.5%] leading-[42px]
+  }
+  h6{
+    @apply font-switzer text-[#181C18] font-semibold text-[24px] tracking-[-1%] leading-[36px]
+  }
+  p{
+    @apply font-switzer text-[#181C18] text-[18px] tracking-[1.15%] leading-[32px]
+  }
+  .title{
+    @apply font-switzer text-[#181C18] font-medium text-[22px] tracking-[-1%] leading-[32px] 
+  }
+  .textBody{
+    @apply font-switzer text-[#181C18] font-medium text-[18px] tracking-[-1%] leading-[32px]
+  }
+  button{
+    @apply font-generalSanz text-[#181c18] text-[16px] font-medium leading-5 
+  }
+  .smallText{
+    @apply font-generalSanz text-[#181c18] font-medium text-[14px] leading-[18px] tracking-[1.5%]
+  }
+}
